@@ -1,0 +1,60 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+  }
+  
+  .formContainer > h1 {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 3rem;
+    color: #fd377e;
+  }
+  
+  .formSale {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .input {
+    padding: 0.8rem;
+    width: 80vw;
+    max-width: 350px;
+    border-color: #fd377e;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+  }
+  
+  .submitButton {
+    padding: 0.8rem 2rem;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF577F;
+    color: white;
+
+    font-size: 1em;
+    font-family: sans-serif;
+    cursor: pointer;
+  }
+
+  .submitButton:hover {
+      background-color: #fd377e;
+      transition: 0.5s;
+  }
+
+  @media (min-width: 1024px) {
+    .formContainer {
+      height: 100%;
+      width: 100%;
+    }
+  }
