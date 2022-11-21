@@ -1,0 +1,38 @@
+.reciveContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  .containerDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
+  
+  .containerDiv > h1 {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+    color: #fd377e;
+  }
+  .containerDiv > p {
+    color: #fd377e;
+    font-family: sans-serif;
+    
+  }
+  .containerDiv > p > span {
+    color: #fff;
+   
+  }
+  
+  @media (min-width: 1024px) {
+    .reciveContainer {
+      height: 100%;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+  }

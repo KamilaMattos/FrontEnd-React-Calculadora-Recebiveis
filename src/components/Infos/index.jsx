@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { CalculateContext} from "../../contexts/calculate";
 import "./index.css";
 
-export const Recive = () => {
+export const Infos = () => {
     const { value } = useContext(CalculateContext);
   
     return (

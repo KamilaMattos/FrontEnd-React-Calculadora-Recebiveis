@@ -1,12 +1,12 @@
 import { Form } from "./components/Form"
-import { Recive } from "./components/Receive"
+import { Infos } from "./components/Infos"
 import "./App.css";
 
 function App() {
   return (
     <div className="container">
       <Form />
-      <Recive />
+      <Infos />
     </div>
   )
 }
